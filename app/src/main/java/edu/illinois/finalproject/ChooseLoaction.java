@@ -1,13 +1,10 @@
 package edu.illinois.finalproject;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class ChooseLoaction extends AppCompatActivity {
     @Override
@@ -28,9 +25,10 @@ public class ChooseLoaction extends AppCompatActivity {
                 openGreen();
             }
         });
+        final Button
     }
     public void openIke() {
-        Intent intent = new Intent(this, IkeCommons.class);
+        Intent intent = new Intent(this, ike.class);
         startActivity(intent);
     }
     public void openGreen() {

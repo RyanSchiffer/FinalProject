@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IkeCommons" />
-        <activity android:name=".green"></activity>
+        <activity android:name=".ike" />
+        <activity android:name=".green" />
+        <activity android:name=".far"></activity>
     </application>
 
 </manifest>

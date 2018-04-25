@@ -3,7 +3,7 @@ package edu.illinois.finalproject;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class IkeCommons extends AppCompatActivity {
+public class ike extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
