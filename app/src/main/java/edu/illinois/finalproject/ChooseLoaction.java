@@ -33,14 +33,14 @@ public class ChooseLoaction extends AppCompatActivity {
             }
         });
         final Button isr = (Button) findViewById(R.id.isr);
-        far.setOnClickListener(new View.OnClickListener() {
+        isr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openIsr();
             }
         });
         final Button quad = (Button) findViewById(R.id.quad);
-        far.setOnClickListener(new View.OnClickListener() {
+        quad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openQuad();
