@@ -44,7 +44,7 @@ public class ChooseLoaction extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openQuad();
-            })
+            }
         });
     }
     public void openIke() {
@@ -57,11 +57,14 @@ public class ChooseLoaction extends AppCompatActivity {
     }
     public void openFar() {
         Intent intent = new Intent(this, far.class);
+        startActivity(intent);
     }
     public void openIsr() {
         Intent intent = new Intent(this, isr.class);
+        startActivity(intent);
     }
     public void openQuad() {
         Intent intent = new Intent(this, quad.class);
+        startActivity(intent);
     }
 }
