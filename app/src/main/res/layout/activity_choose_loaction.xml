@@ -32,12 +32,6 @@
             android:text="Far / Par" />
 
         <Button
-            android:id="@+id/busey"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Busey Evans" />
-
-        <Button
             android:id="@+id/isr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".ike" />
         <activity android:name=".green" />
-        <activity android:name=".far"></activity>
+        <activity android:name=".far" />
+        <activity android:name=".isr" />
+        <activity android:name=".quad"></activity>
     </application>
 
 </manifest>

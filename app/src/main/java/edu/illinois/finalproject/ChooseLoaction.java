@@ -25,7 +25,24 @@ public class ChooseLoaction extends AppCompatActivity {
                 openGreen();
             }
         });
-        final Button
+        final Button far = (Button) findViewById(R.id.far);
+        far.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openFar();
+            }
+        });
+        final Button isr = (Button) findViewById(R.id.isr);
+        far.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openIsr();
+            }
+        });
+        final Button quad = (Button) findViewById(R.id.quad);
+        far.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openQuad();
+            })
+        });
     }
     public void openIke() {
         Intent intent = new Intent(this, ike.class);
@@ -34,5 +51,14 @@ public class ChooseLoaction extends AppCompatActivity {
     public void openGreen() {
         Intent intent = new Intent(this, green.class);
         startActivity(intent);
+    }
+    public void openFar() {
+        Intent intent = new Intent(this, far.class);
+    }
+    public void openIsr() {
+        Intent intent = new Intent(this, isr.class);
+    }
+    public void openQuad() {
+        Intent intent = new Intent(this, quad.class);
     }
 }
