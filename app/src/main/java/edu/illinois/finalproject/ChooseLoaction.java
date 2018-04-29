@@ -27,18 +27,21 @@ public class ChooseLoaction extends AppCompatActivity {
         });
         final Button far = (Button) findViewById(R.id.far);
         far.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
                 openFar();
             }
         });
         final Button isr = (Button) findViewById(R.id.isr);
         far.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
                 openIsr();
             }
         });
         final Button quad = (Button) findViewById(R.id.quad);
         far.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
                 openQuad();
             })
