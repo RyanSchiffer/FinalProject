@@ -19,8 +19,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:text='The current temperature is " " degrees.
-We reccomend.'
+            android:text='The current temperature is 82 degrees.
+We recommend carry out.'
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
         <EditText

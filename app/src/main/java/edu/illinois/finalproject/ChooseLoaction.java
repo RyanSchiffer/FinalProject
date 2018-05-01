@@ -60,8 +60,8 @@ public class ChooseLoaction extends AppCompatActivity {
                 openQuad();
             }
         });
-        final Button weather = (Button) findViewById(R.id.refresh);
-        weather.setOnClickListener(startAPICall());
+        final Button weather = (Button) findViewById(R.id.weather);
+        weather.setOnClickListener({startAPICall(); });
     }
     public void openIke() {
         Intent intent = new Intent(this, ike.class);
@@ -86,13 +86,13 @@ public class ChooseLoaction extends AppCompatActivity {
     /**
      * Make a call to the weather API.
      */
-    void startAPICall() {
+    public void startAPICall() {
         try {
             String API_KEY = "ffb757819fa74e7bdf5d751bcfd4cbc4";
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                     Request.Method.GET,
                     "http://api.openweathermap.org/data/2.5/weather?zip=61820,us&appid="
-                            + BuildConfig.API_KEY,
+                            + BuildConfig.ffb757819fa74e7bdf5d751bcfd4cbc4,
                     null,
                     new Response.Listener<JSONObject>() {
                         @Override
