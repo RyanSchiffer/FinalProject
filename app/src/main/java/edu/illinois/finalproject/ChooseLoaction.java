@@ -60,6 +60,8 @@ public class ChooseLoaction extends AppCompatActivity {
                 openQuad();
             }
         });
+        final Button weather = (Button) findViewById(R.id.refresh);
+        weather.setOnClickListener(startAPICall());
     }
     public void openIke() {
         Intent intent = new Intent(this, ike.class);
