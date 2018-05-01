@@ -14,11 +14,44 @@
         tools:layout_editor_absoluteY="8dp">
 
         <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text='The current temperature is " " degrees.
+We reccomend.'
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            tools:text= "PAR Dining Hall - open til 12:00 A.M.
+Located in PAR Basement" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            tools:text= "Penn Station - open til 12:00 A.M.
+Located on first floor PAR"/>
+
+        <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="121dp"
             android:ems="10"
             android:inputType="textMultiLine"
-            tools:text="Jimmy Johns" />
+            tools:text="Jimmy Johns - delivers til 3 A.M.
+Call at (217) 328-3100
+www.JimmyJohns.com
+App Available" />
+
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
