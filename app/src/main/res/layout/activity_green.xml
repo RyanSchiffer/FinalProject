@@ -34,7 +34,7 @@ We reccomend carry out."
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:lineSpacingExtra="8sp"
             android:text="
 McDonald's - open 24 hrs
@@ -47,7 +47,7 @@ McDonald's - open 24 hrs
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:lineSpacingExtra="8sp"
             android:text="Dunkin Donuts - open til 9 P.M.
 "
@@ -59,7 +59,7 @@ McDonald's - open 24 hrs
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:lineSpacingExtra="8sp"
             android:text="Panera Bread - Delivery til 9 P.M.
 "
@@ -71,7 +71,7 @@ McDonald's - open 24 hrs
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="Jimmy Johns - delivers til 3 A.M.
 Call at (217) 328-3100
 www.JimmyJohns.com

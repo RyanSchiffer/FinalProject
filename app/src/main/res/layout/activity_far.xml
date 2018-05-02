@@ -34,9 +34,9 @@ We reccomend carry out."
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="%n
-PAR Dining Hall - open til 12:00 A.M.%n
+            android:layout_height="60dp"
+            android:text="
+PAR Dining Hall - open til 12:00 A.M.
 Located in PAR Basement
 "
             android:textColor="@color/cardview_dark_background"
@@ -47,7 +47,7 @@ Located in PAR Basement
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="Penn Station - open til 12:00 A.M.
 Located on first floor PAR
 "
@@ -59,7 +59,7 @@ Located on first floor PAR
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="Jimmy Johns - delivers til 3 A.M.
 Call at (217) 328-3100
 www.JimmyJohns.com

@@ -34,7 +34,7 @@ We reccomend carry out."
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="
 Ikenberry Commons Dining Hall
 Open til 8 P.M.
@@ -47,7 +47,7 @@ Open til 8 P.M.
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="57 North (First Floor Ike)
 Open til 12 A.M.
 "
@@ -59,7 +59,7 @@ Open til 12 A.M.
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="Jimmy Johns - delivers til 3 A.M.
 Call at (217) 328-3100
 www.JimmyJohns.com

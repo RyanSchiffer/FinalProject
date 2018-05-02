@@ -34,7 +34,7 @@ We reccomend carry out."
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="
 Starbucks (Illini Union Main Level)
 Open til 11 P.M.
@@ -45,23 +45,25 @@ Open til 11 P.M.
             app:fontFamily="sans-serif" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/textView6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Wendy's (Illini Union Lower Level)
-Open til 8 P.M.
-"
+            android:layout_height="60dp"
+            android:text="Jimmy Johns - delivers til 3 A.M.
+Call at (217) 328-3100
+www.JimmyJohns.com
+App Available"
             android:textColor="@color/cardview_dark_background"
             android:textSize="18sp"
             android:typeface="normal"
             app:fontFamily="sans-serif" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView8"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Qdoba Mexican Grill (Illini Union Lower Level)
-Open til 8 P.M."
+            android:layout_height="60dp"
+            android:text="Wendy's (Illini Union Lower Level)
+Open til 8 P.M.
+"
             android:textColor="@color/cardview_dark_background"
             android:textSize="18sp"
             android:typeface="normal"

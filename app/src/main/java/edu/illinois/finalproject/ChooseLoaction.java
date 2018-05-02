@@ -82,21 +82,21 @@ public class ChooseLoaction extends AppCompatActivity {
         startActivity(intent);
     }
     public void weatherAPICall() {
-        try {
-            JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
-                    Request.Method.GET,
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
+                Request.Method.GET,
                     "http://api.openweathermap.org/data/2.5/weather?zip=61820,us&appid="
-                            + BuildConfig.ffb757819fa74e7bdf5d751bcfd4cbc4,
+                            + BuildConfig.API_KEY,
                     null,
                     new Response.Listener<JSONObject>() {
                         @Override
                         public void onResponse(final JSONObject response) {
                         }
                     }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(final VolleyError error) {
+                    Log.e(TAG, error.toString());
+                }
             });
             requestQueue.add(jsonObjectRequest);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 }
