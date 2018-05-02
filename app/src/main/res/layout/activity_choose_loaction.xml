@@ -4,14 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:maxWidth="500dp"
+    android:minHeight="218dp"
+    android:minWidth="50dp"
     tools:context=".ChooseLoaction">
 
     <LinearLayout
-        android:layout_width="344dp"
-        android:layout_height="495dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/weather"
@@ -27,27 +33,28 @@
             android:text="Green Street" />
 
         <Button
-            android:id="@+id/ike"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ikenberry Commons" />
-
-        <Button
             android:id="@+id/far"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Far / Par" />
 
         <Button
-            android:id="@+id/isr"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="ISR" />
-
-        <Button
             android:id="@+id/quad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Main Quad" />
+
+        <Button
+            android:id="@+id/ike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ikenberry Commons" />
+
+        <Button
+            android:id="@+id/isr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ISR" />
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

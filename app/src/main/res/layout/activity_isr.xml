@@ -7,49 +7,68 @@
     tools:context=".far">
 
     <LinearLayout
-        android:layout_width="344dp"
-        android:layout_height="495dp"
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <EditText
-            android:id="@+id/editText6"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textMultiLine"
-            android:text='The current temperature is 82 degrees.
-We recommend carry out.'
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            android:text="The current temperature is 82 degrees.
+We reccomend carry out."
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="36sp" />
 
-        <EditText
-            android:id="@+id/editText3"
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textMultiLine"
-            tools:text= "Chomps (Lower Level ISR)
-Open til 12 A.M." />
+            android:text="
+Chomps (Lower Level ISR)
+Open til 12 A.M.
+"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18sp"
+            android:typeface="normal"
+            app:fontFamily="sans-serif" />
 
-        <EditText
-            android:id="@+id/editText"
+        <TextView
+            android:id="@+id/textView8"
             android:layout_width="match_parent"
-            android:layout_height="121dp"
-            android:ems="10"
-            android:inputType="textMultiLine"
-            tools:text="Jimmy Johns - delivers til 3 A.M.
+            android:layout_height="wrap_content"
+            android:text="ISR Dining Hall
+Open til 8 P.M.
+"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18sp"
+            android:typeface="normal"
+            app:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jimmy Johns - delivers til 3 A.M.
 Call at (217) 328-3100
 www.JimmyJohns.com
-App Available" />
-
-        <EditText
-            android:id="@+id/editText4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textMultiLine"
-            tools:text= "ISR Dining Hall
-Open til 8 P.M."/>
+App Available"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18sp"
+            android:typeface="normal"
+            app:fontFamily="sans-serif" />
 
     </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
